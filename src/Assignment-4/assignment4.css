@@ -1,7 +1,132 @@
 /* Our CSS file. */
 
 
-.container, .content {
+.container, .content{
 width: 100%;
 height: 100%;
 }
+
+header{
+    background-color:#3f8da7;
+    height:80px;
+    width:100%;
+}
+header img{
+    height:50px;
+    width:50px;
+}
+header img, nav{
+    display: inline-block;
+    margin-top:15px;
+    margin-left: 40px;
+}
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 30px;;
+}
+header nav{
+    float:right;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+#hero{
+    width:100%;
+    height:400px;
+
+}
+.background{
+    position: relative;
+    z-index: -1;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+
+}
+.title{
+    color: rgb(3, 66, 3);
+    position: absolute;
+    left:515px;
+    top: 100px;
+}
+
+
+.dog1 img{
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    border: 2px solid #3f8da7;
+    
+}
+.dog1{
+    position: absolute;
+    top: 160px;
+    left: 500px;
+}
+#hero button{
+    position:absolute;
+    left:560px;
+    top: 410px;
+    height:50px;
+    width: 80px;
+    border: 2px solid #3f8da7;
+}
+
+.mid .three-col{
+    display: inline-block;
+    text-align: justify;
+    width:28%;
+    margin: 25px;
+}
+.three-col img{
+    margin-left: 85px;;
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #3f8da7;
+}
+
+.home, .things, .stuff{
+    color: #3f8da7;
+    margin-left: 40%;
+
+}
+.three-col .btn1{
+    height: 35px;
+    border: 2px solid #3f8da7;
+    margin-left: 35%;
+}
+.three-col .btn2{
+    height: 40px;
+    border: 2px solid #3f8da7;
+    margin-left: 35%;
+}
+.three-col .btn3{
+    height: 35px;
+    border: 2px solid #3f8da7;
+    margin-left: 35%;
+}
+
+footer{
+    text-align: center;
+    background-color: #3f8da7;
+    height:200px;
+}
+.social-handles{
+    display: inline-block;
+    padding-top: 20px;
+}
+.social-handles img{
+    padding-left: 25px;
+}
+footer h5{
+    color: white;
+    padding-top: 20px;;
+}
+footer a{
+    text-decoration-color: white;
+}
+
