@@ -1,7 +1,68 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
-height: 100%;
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 80px;
+    background: rgb(241, 237, 237);
 }
+
+.page-content{
+    margin: 80px;
+    background: rgb(241, 237, 237);
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    margin:35px 15px 25px 25px;
+    background-color: white;
+}
+
+
+.image{
+    position: relative;
+    background-color: #9fd483;
+    width:25%;
+    height: 350px;
+    border-radius: 3%;
+}
+
+#leaf{
+    position: absolute;
+    width: 400px;
+    height:340px;
+    top: -35px;
+    right:-70px;
+}
+#cactus{
+    position: absolute;
+    height: 220px;
+    width: 300px;
+    left: -25px;
+    top:18px;
+}
+
+.content{
+    width:55%;
+    margin-left: 10%;
+}
+.content  h1{
+    font-size: 40px;
+}
+
+.content  p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+.content  button{
+    color: white;
+    width:130px;
+    height:70px;
+    border-radius: 35%;
+    background-color:#9fd483;
+    border: 2px solid #9fd483;
+}
+
+
+
